@@ -3,12 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TeeSheet TC — Every Twin Cities Tee Time, One App</title>
-  <meta name="description" content="Live tee times from 140+ public golf courses across the Twin Cities metro and western Wisconsin, in one search. Pick a date, time, and distance; book directly with the course.">
-  <meta property="og:title" content="TeeSheet TC — Every Twin Cities Tee Time, One App">
-  <meta property="og:description" content="Live tee times from 140+ public golf courses across the Twin Cities metro, in one search. Book directly with the course.">
+  <title>TeeSheet TC: Every Twin Cities Tee Time, One App</title>
+  <meta name="description" content="Live tee times from 140+ public golf courses across the Twin Cities metro and western Wisconsin, in one search. Pick a date, time, and distance; book directly with the course. Free on iOS and Android.">
+  <link rel="canonical" href="https://teesheettc.com/">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#2E7D32">
+
+  <!-- Icons (generated from the app icon) -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="styles.css">
+  <meta property="og:site_name" content="TeeSheet TC">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://teesheettc.com/">
+  <meta property="og:title" content="TeeSheet TC: Every Twin Cities Tee Time, One App">
+  <meta property="og:description" content="Live tee times from 140+ public golf courses across the Twin Cities metro and western Wisconsin, in one search. Pick a date, time, and distance; book directly with the course. Free on iOS and Android.">
+  <meta property="og:image" content="https://teesheettc.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="TeeSheet TC: every tee time in the Twin Cities, one search">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TeeSheet TC: Every Twin Cities Tee Time, One App">
+  <meta name="twitter:description" content="Live tee times from 140+ public golf courses across the Twin Cities metro and western Wisconsin, in one search. Pick a date, time, and distance; book directly with the course. Free on iOS and Android.">
+  <meta name="twitter:image" content="https://teesheettc.com/assets/og-image.png">
+
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MobileApplication",
+        "name": "TeeSheet TC",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "SportsApplication",
+        "description": "Live tee times from 140+ public golf courses across the Twin Cities metro and western Wisconsin, in one search. Book directly with the course.",
+        "url": "https://teesheettc.com/",
+        "image": "https://teesheettc.com/assets/icon-512.png",
+        "offers": [
+          {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free"},
+          {"@type": "Offer", "price": "4.99", "priceCurrency": "USD", "description": "TeeSheet TC Pro, monthly"},
+          {"@type": "Offer", "price": "39.99", "priceCurrency": "USD", "description": "TeeSheet TC Pro, yearly"}
+        ],
+        "installUrl": [
+          "https://apps.apple.com/us/app/teesheet-tc/id6762153205",
+          "https://play.google.com/store/apps/details?id=com.teesheetc.tee_times_app"
+        ],
+        "areaServed": {"@type": "Place", "name": "Minneapolis-Saint Paul, Minnesota and western Wisconsin"},
+        "publisher": {"@id": "https://teesheettc.com/#org"}
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://teesheettc.com/#org",
+        "name": "TeeSheet TC",
+        "url": "https://teesheettc.com/",
+        "logo": "https://teesheettc.com/assets/icon-512.png",
+        "email": "teesheet@ribby.dev",
+        "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "email": "teesheet@ribby.dev"}
+      },
+      {
+        "@type": "WebSite",
+        "name": "TeeSheet TC",
+        "url": "https://teesheettc.com/",
+        "publisher": {"@id": "https://teesheettc.com/#org"}
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -27,7 +93,7 @@
 <section class="hero" id="get">
   <div class="wrap">
     <h1>Every tee time in the Twin Cities.<br><span>One search.</span></h1>
-    <p class="lede">TeeSheet TC pulls live tee times from more than 140 public golf courses across the metro and western Wisconsin into one screen. Pick your date, time window, and how far you'll drive. See every open time, sorted by price or distance. Tap to book directly with the course.</p>
+    <p class="lede">TeeSheet TC pulls live tee times from more than 140 public golf courses across the Minneapolis–St. Paul metro and western Wisconsin into one screen. Pick your date, time window, and how far you'll drive. See every open time, sorted by price or distance. Tap to book directly with the course.</p>
     <div class="badges">
       <a href="https://play.google.com/store/apps/details?id=com.teesheetc.tee_times_app" aria-label="Get it on Google Play">
         <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="height:72px">

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://teesheettc.com/sitemap.xml
