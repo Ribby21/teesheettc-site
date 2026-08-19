@@ -62,12 +62,6 @@ img { max-width: 100%; height: auto; }
 .badges a:hover { opacity: 0.9; }
 .hero .fine { color: var(--muted); font-size: 0.9rem; margin-top: 1.2em; }
 
-/* Stats strip */
-.stats { background: var(--bg-alt); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 28px 0; }
-.stats .wrap { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; text-align: center; }
-.stat b { display: block; font-size: 1.9rem; color: var(--green); line-height: 1.1; }
-.stat span { color: var(--muted); font-size: 0.9rem; }
-
 /* Sections */
 section.block { padding: 64px 0; }
 section.block h2 { font-size: 1.75rem; margin: 0 0 0.3em; letter-spacing: -0.01em; }
@@ -76,7 +70,6 @@ section.block .sub { color: var(--muted); margin: 0 0 2em; max-width: 640px; }
 .card { background: var(--bg-alt); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
 .card h3 { margin: 0 0 0.4em; font-size: 1.1rem; }
 .card p { margin: 0; color: var(--ink-soft); font-size: 0.97rem; }
-.card .ico { font-size: 1.5rem; margin-bottom: 10px; }
 
 /* Pricing */
 .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; max-width: 720px; margin: 0 auto; }
