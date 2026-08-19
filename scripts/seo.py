@@ -82,8 +82,8 @@ home_ld = '''  <script type="application/ld+json">
         "name": "TeeSheet TC",
         "url": "https://teesheettc.com/",
         "logo": "https://teesheettc.com/assets/icon-512.png",
-        "email": "teesheet@ribby.dev",
-        "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "email": "teesheet@ribby.dev"}
+        "email": "support@teesheettc.com",
+        "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "email": "support@teesheettc.com"}
       },
       {
         "@type": "WebSite",
@@ -102,7 +102,7 @@ support_ld = '''  <script type="application/ld+json">
     "@type": "FAQPage",
     "mainEntity": [
       {"@type": "Question", "name": "A tee time in the app was not available when I tapped through.", "acceptedAnswer": {"@type": "Answer", "text": "Tee times refresh roughly every 30 minutes and popular times go fast; the course's booking page is always the source of truth. If a course is consistently wrong, contact support."}},
-      {"@type": "Question", "name": "Why is my course not in the app?", "acceptedAnswer": {"@type": "Answer", "text": "TeeSheet TC covers every public course it can reach across the Twin Cities metro and western Wisconsin. Courses without online booking are listed with a phone number. Email teesheet@ribby.dev to request a missing course."}},
+      {"@type": "Question", "name": "Why is my course not in the app?", "acceptedAnswer": {"@type": "Answer", "text": "TeeSheet TC covers every public course it can reach across the Twin Cities metro and western Wisconsin. Courses without online booking are listed with a phone number. Email support@teesheettc.com to request a missing course."}},
       {"@type": "Question", "name": "How do I cancel or manage Pro?", "acceptedAnswer": {"@type": "Answer", "text": "Subscriptions are managed by your app store. Android: Google Play > profile > Payments & subscriptions > Subscriptions. iOS: Settings > your name > Subscriptions."}},
       {"@type": "Question", "name": "Do I need an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. TeeSheet TC has no accounts; favorites and preferences are stored on your device."}},
       {"@type": "Question", "name": "Are you affiliated with the courses or GolfNow?", "acceptedAnswer": {"@type": "Answer", "text": "No. TeeSheet TC is not affiliated with any course or booking provider. It reads publicly available tee-time listings and sends you to the course's own booking page, never taking a booking fee."}}
