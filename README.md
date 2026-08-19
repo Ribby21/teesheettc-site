@@ -33,6 +33,5 @@ These paths must keep resolving (same filenames as the old
 
 ## TODO before switching the app over
 
-- Fill in the App Store id in `index.html` (`APP_STORE_ID` placeholder).
 - Decide on a custom domain; if used, set `CNAME` here and keep the old
   GitHub Pages URLs redirecting until the app + store listings are updated.
